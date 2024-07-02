@@ -16,20 +16,17 @@ const Home = () => {
       {/* <img src={bg} className=" absolute right-0" /> */}
       <motion.div
         style={{ transformOrigin: "top" }}
-        whileHover={{ scale: 1.3 }}
         animate={{
-          rotate: [0, 60],
-          x: [300,20,0 ],
+
+          rotate: [5, -5, 5],
           transition: {
-            duration: 50,
+            duration: 7,
             repeat: Infinity,
-            ease: "easeInOut",
-          },
+          }
         }}
-        className="absolute right-50  w-[400px]"
+        className="absolute  right-20 h-full  w-[500px] sm:w-[700px]"
       >
-        <img src={g} className="absolute overfl  w-40 sm:w-[400px] object-cover object-bottom" />
-      </motion.div>
+    <img className="absolute right-0  -top-8   w-[200px] sm:[700px]   object-cover object-bottom" src={g} />      </motion.div>
 
 
       <motion.div
@@ -44,8 +41,8 @@ const Home = () => {
         }}
         className="absolute  right-20 h-full  w-[500px] sm:w-[700px]"
       >
-        <div className="absolute  right-30 w-[400px] sm:w-[700px]  overflow-hidden top-20  h-[200px]  bg-yellow-400  opacity-50 rounded-full md:blur-3xl blur-2xl "></div>
-        <img className="absolute right-0  -top-8   w-[1000px] sm:[700px]  overflow-hidden object-cover object-bottom" src={bg} />
+        <div className="absolute  right-30 w-[400px] sm:w-[700px]  top-20  h-[200px]  bg-yellow-400  opacity-50 rounded-full md:blur-3xl blur-2xl "></div>
+        <img className="absolute right-0  -top-8   w-[1000px] sm:[700px]   object-cover object-bottom" src={bg} />
       </motion.div>
 
 

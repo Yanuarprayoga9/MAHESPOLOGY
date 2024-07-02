@@ -28,7 +28,7 @@ const Home = () => {
         }}
         className="absolute right-50  w-[400px]"
       >
-        <img src={g} className="absolute overfl  w-80 sm:w-[400px] object-cover object-bottom" />
+        <img src={g} className="absolute overfl  w-40 sm:w-[400px] object-cover object-bottom" />
       </motion.div>
 
 

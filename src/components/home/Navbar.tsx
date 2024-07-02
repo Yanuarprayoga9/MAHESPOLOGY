@@ -24,7 +24,7 @@ const Navbar = () => {
     <div
       className={`${
         isScroll ? "bg-purple-950 h-[60px] lg:-top-[60px]" : " h-[80px]"
-      } lg:px-[72px] px-5   w-full  z-[10] fixed  transition-all duration-300 ease-in-out  flex justify-between items-center`}
+      } lg:px-[72px] px-5   w-full  z-[10] fixed   transition-all duration-300 ease-in-out  flex justify-between items-center`}
     >
       <div className="w-[103px] h-[25px]">
         {/* <img src={logo} alt="" className="w-full h-full object-contain" /> */}

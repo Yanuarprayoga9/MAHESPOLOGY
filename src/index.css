@@ -14,8 +14,4 @@ body {
 }
 .home {
   background: #160040;
-
-  
-  background-size: 100vw;
-  filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#230E16", endColorstr="#381954", GradientType=1 );
 }

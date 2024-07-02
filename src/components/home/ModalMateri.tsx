@@ -17,7 +17,11 @@ const ExampleWrapper = () => {
   );
 };
 
-const SpringModal = ({ isOpen, setIsOpen }) => {
+interface prop  {
+  isOpen:boolean;
+  setIsOpen:React.Dispatch<React.SetStateAction<boolean>>
+}
+const SpringModal = ({ isOpen, setIsOpen }:prop) => {
   return (
     <AnimatePresence>
       {isOpen && (

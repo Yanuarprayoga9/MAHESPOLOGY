@@ -1,3 +1,21 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+body {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+ overflow-x: hidden;
+}
+* {
+  transition: all 300ms ease-in-out;
+}
+.home {
+  background: #160040;
+
+  
+  background-size: 100vw;
+  filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#230E16", endColorstr="#381954", GradientType=1 );
+}

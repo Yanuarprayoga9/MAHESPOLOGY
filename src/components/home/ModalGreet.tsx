@@ -21,6 +21,15 @@ const driverObj = driver({
       }
     },
     {
+        element: '#startnow',
+        popover: {
+          title: 'Animated Tour Example',
+          description: 'Here is the code example showing animated tour. Let\'s walk you through it.',
+          side: "left",
+          align: 'start'
+        }
+      },
+    {
       popover: {
         title: 'Happy Coding',
         description: 'And that is all, go ahead and start adding tours to your applications.'

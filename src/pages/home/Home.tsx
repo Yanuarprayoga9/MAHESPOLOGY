@@ -18,9 +18,9 @@ const Home = () => {
         style={{ transformOrigin: "top" }}
         animate={{
 
-          rotate: [5, -5, 5],
+          rotate: [60, 5],
           transition: {
-            duration: 7,
+            duration: 50,
             repeat: Infinity,
           }
         }}

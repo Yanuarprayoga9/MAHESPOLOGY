@@ -54,6 +54,7 @@ const EncryptButton = () => {
 
   return (
     <motion.button
+    id="startnow"
       whileHover={{
         scale: 1.025,
       }}

@@ -10,7 +10,7 @@ export const navLink = [
     name: "materi",
   },
   {
-    id: "healt",
+    id: "tentangkami",
     name: "tentang kami",
   },
 ];

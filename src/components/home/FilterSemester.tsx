@@ -1,14 +1,14 @@
 import { features } from "../../data/dummy";
 const FilterSemester = () => {
   return (
-    <div className="w-full h-auto px-5 lg:px-[72px] flex flex-col gap-5 mt-4">
+    <div className=" bg-blue-800 h-auto px-5 lg:px-[72px] flex flex-col gap-5 mt-4">
       <h1 className="font-bold text-[16px] lg:text-[20px] text-orange">
         Halo ngab
       </h1>
       <h1 className="font-bold text-2xl lg:text-[30px]">
         Jadi ada 3 tipe mahasiswa nih,lo yang mana
       </h1>
-      <div className="grid items-center grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 ">
+      <div className="flex  flex-wrap ">
         {features.map((item, i) => {
           return (
             <div

@@ -4,7 +4,11 @@ import { navLink } from "../../data/dummy";
 import { FiMenu } from "react-icons/fi";
 import { AiOutlineClose } from "react-icons/ai";
 
+
+
 const Navbar = () => {
+  
+
   const [nav, setNav] = useState(false);
   const [isScroll, setIsScroll] = useState(false);
   useEffect(() => {
@@ -26,7 +30,7 @@ const Navbar = () => {
         isScroll ? "bg-purple-950 h-[60px] lg:-top-[60px]" : " h-[80px]"
       } lg:px-[72px] px-5   w-full  z-[10] fixed   transition-all duration-300 ease-in-out  flex justify-between items-center`}
     >
-      <div className="w-[103px] h-[25px]">
+      <div className="w-[103px] h-[25px] ">
         {/* <img src={logo} alt="" className="w-full h-full object-contain" /> */}
         <p className="text-1xl">Mahespology</p>
       </div>
@@ -37,6 +41,7 @@ const Navbar = () => {
               <Link
                 key={item.id}
                 to={item.id}
+                id={item.id}
                 className={`${
                   isScroll ? "text-[14px]" : "text-[18px]"
                 }  hover:text-orange transition duration-300 ease-in-out hover:cursor-pointer`}

@@ -1,17 +1,17 @@
 import './App.css';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import Home from './pages/home/Home';
+import Navbar from './components/home/Navbar';
 
 function App() {
   return (
-   <div className='home  text-white'>
+  
     <BrowserRouter>
-      {/* <Navbar /> */}
+      <Navbar />
       <Routes>
         <Route path="/" element={<Home />} />
       </Routes>
     </BrowserRouter>
-    </div>
   );
 }
 

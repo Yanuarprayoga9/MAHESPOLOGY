@@ -7,11 +7,6 @@ body {
   padding: 0;
   margin: 0;
   font-family: "Poppins", sans-serif;
- overflow-x: hidden;
+color: white;
 }
-* {
-  transition: all 300ms ease-in-out;
-}
-.home {
-  background: #160040;
-}
+

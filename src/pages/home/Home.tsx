@@ -12,7 +12,7 @@ const Home = () => {
   const [isOpen,setIsOpen] =  useState(true);
   return (
     <div className="w-full    ">
-      {/* <ModalGreet isOpen={isOpen} setIsOpen={setIsOpen}/> */}
+      <ModalGreet isOpen={isOpen} setIsOpen={setIsOpen}/>
       {/* <img src={bg} className=" absolute right-0" /> */}
       <motion.div
         style={{ transformOrigin: "top" }}

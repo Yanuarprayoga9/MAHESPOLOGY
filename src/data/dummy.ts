@@ -18,20 +18,21 @@ export const navLink = [
 export const features = [
   {
     image: MINI1,
-    title: "Get The Right A Doctor",
-    desc: "Choose the best doctor form around the world ",
+    title: "Maba",
+    desc: "Lo awal semester baru masuk kuliah ",
   },
   {
     image: MINI2,
-    title: "Get The Right A Doctor",
-    desc: "Choose the best doctor form around the world ",
+    title: "Mahasiswa Pertengahan",
+    desc: "Lo pertengahan semester udah mulai banyak nih tugasnya   ",
   },
   {
     image: MINI3,
-    title: "Get The Right A Doctor",
-    desc: "Choose the best doctor form around the world ",
+    title: "Mahasiswa Tingkat akhir",
+    desc: "Lo pertengahan semester akhir yang lagi pusing ngerjain skripsi ",
   },
 ];
+
 export const sakit = [
   {
     image: orangPilek,

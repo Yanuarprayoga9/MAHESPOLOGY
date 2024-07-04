@@ -1,4 +1,3 @@
-import React from 'react'
 import { MateriType } from '../../data/materi'
 import { MateriCard } from './MateriCard'
 

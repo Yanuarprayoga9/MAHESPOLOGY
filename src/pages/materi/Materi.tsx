@@ -8,7 +8,7 @@ import { sortedMateri } from '../../utils/sortedMateri';
 const Materi = () => {
    
     const searchParams = new URLSearchParams(location.search);
-    const  [filter,setFIlter] = useState(searchParams.get('materi') || "")
+    const  [filter] = useState(searchParams.get('materi') || "")
  
     if(filter=="") return <Error/>
 

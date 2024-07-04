@@ -1,10 +1,9 @@
 import { motion } from 'framer-motion'
-import React from 'react'
 import { MateriType } from '../../data/materi'
 
 
 export const MateriCard = (props:MateriType) => {
-    const {title,desc,image,category} = props
+    const {title,desc,image} = props
   return (
    <motion.div
               style={{}}

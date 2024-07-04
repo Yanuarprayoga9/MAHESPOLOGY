@@ -1,7 +1,15 @@
 import { features } from '../../data/dummy';
 import { motion } from 'framer-motion';
+import {useNavigate} from "react-router-dom"
 
 const FilterSemester = () => {
+
+  const navigate = useNavigate();
+
+  const handleClick = (a:string) => {
+    navigate(`/materi?materi=${encodeURIComponent(a)}`);
+  };
+  
   return (
     <div className=" py-8 h-auto px-5 lg:px-[72px] flex flex-col gap-5 mt-4">
       <h1 className="font-bold text-[16px] lg:text-[20px] text-orange">
@@ -26,8 +34,9 @@ const FilterSemester = () => {
               className='m-6 py-8'
             >
               <div
-                className="flex flex-col p-4 h-[300px]  justify-center items-center shadow-xl  shadow-purple-950"
+                className="flex flex-col p-4 h-[300px] w-[400px]  justify-center items-center shadow-xl  shadow-purple-950"
                 key={i}
+                onClick={()=>handleClick(item.title)}
               >
           
                   <div className="w-[200px] h-[200px] flex justify-center">

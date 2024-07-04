@@ -23,12 +23,12 @@ export const features = [
   },
   {
     image: MINI2,
-    title: "Mahasiswa Pertengahan",
+    title: "Pertengahan",
     desc: "Lo pertengahan semester udah mulai banyak nih tugasnya   ",
   },
   {
     image: MINI3,
-    title: "Mahasiswa Tingkat akhir",
+    title: "Akhir",
     desc: "Lo pertengahan semester akhir yang lagi pusing ngerjain skripsi ",
   },
 ];

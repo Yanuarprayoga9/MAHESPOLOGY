@@ -13,7 +13,7 @@ const FilterSemester = () => {
   return (
     <div className=" py-8 h-auto px-5 lg:px-[72px] flex flex-col gap-5 mt-4">
       <h1 className="font-bold text-[16px] lg:text-[20px] text-orange">
-        Halo ngab
+        FASE MAHASISWA
       </h1>
       <h1 className="font-bold text-2xl lg:text-[30px]">
         Jadi ada 3 fase mahasiswa nih,lo yang mana

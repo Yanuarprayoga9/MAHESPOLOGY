@@ -18,7 +18,7 @@ const FilterSemester = () => {
       <h1 className="font-bold text-2xl lg:text-[30px]">
         Jadi ada 3 fase mahasiswa nih,lo yang mana
       </h1>
-      <div className="flex  flex-wrap justify-center">
+      <div className="flex p-4  flex-wrap justify-center">
         {features.map((item, i) => {
           return (
             <motion.div
@@ -30,12 +30,13 @@ const FilterSemester = () => {
                 scale:1.1,
                 boxShadow: '0px 0px 10px 0px rgba(255,255,255,1)' // Bayangan putih
               }}
+              key={i}
+
               // viewport={{ once: true }}
               className='m-6 py-8'
             >
               <div
-                className="flex flex-col p-4 h-[300px] w-[400px]  justify-center items-center shadow-xl  shadow-purple-950"
-                key={i}
+                className="flex flex-col p-4 h-[300px] w-[300px]  justify-center items-center shadow-xl  shadow-purple-950"
                 onClick={()=>handleClick(item.title)}
               >
           
@@ -49,7 +50,7 @@ const FilterSemester = () => {
                 <h1 className="text-[16px] lg:text-[20px] font-bold">
                   {item.title}
                 </h1>
-                <p className="text-center  text-text text-sm lg:text-[20px] max-w-[400px]">
+                <p className="text-center  text-text text-sm  max-w-[400px]">
                   {item.desc}
                 </p>
               </div>

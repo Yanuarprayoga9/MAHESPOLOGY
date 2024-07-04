@@ -1,13 +1,9 @@
 
-import { MINI1,MINI3,MINI2,orangPilek,sakitPerut,kakiPatah,sakitKepala, darahRendah } from ".";
+import { MINI1,MINI3,MINI2} from ".";
 export const navLink = [
   {
-    id: "healt",
+    id: "/",
     name: "home",
-  },
-  {
-    id: "healt",
-    name: "materi",
   },
   {
     id: "tentangkami",
@@ -33,35 +29,3 @@ export const features = [
   },
 ];
 
-export const sakit = [
-  {
-    image: orangPilek,
-    title: "Flue",
-    desc: "panas, demam",
-  },
-  {
-    image: sakitPerut,
-    title: "sakit perut",
-    desc: "perut mual, muntah-muntah",
-  },
-  {
-    image: kakiPatah,
-    title: "patah Kaki",
-    desc: "sakit pada pergelangan kaki",
-  },
-  {
-    image: sakitKepala,
-    title: "Flue",
-    desc: "Pusing, migran",
-  },
-  {
-    image: darahRendah,
-    title: "darah rendah",
-    desc: "migran ketika baru bangun, badan serasa mau pingsan , mata kabur",
-  },
-  {
-    image: orangPilek,
-    title: "Flue",
-    desc: "panas, demam",
-  },
-];

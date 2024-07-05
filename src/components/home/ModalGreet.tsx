@@ -1,7 +1,7 @@
-import { AnimatePresence, motion } from "framer-motion";
-import { FiAlertCircle } from "react-icons/fi";
-import { driver } from "driver.js";
-import "driver.js/dist/driver.css";
+import { AnimatePresence, motion } from 'framer-motion';
+import { FiAlertCircle } from 'react-icons/fi';
+import { driver } from 'driver.js';
+import 'driver.js/dist/driver.css';
 
 interface prop {
   isOpen: boolean;
@@ -12,30 +12,49 @@ const driverObj = driver({
   showProgress: true,
   steps: [
     {
-      element: '#tentangkami',
+      element: '#startnow',
       popover: {
-        title: 'Animated Tour Example',
-        description: 'Here is the code example showing animated tour. Let\'s walk you through it.',
-        side: "left",
-        align: 'start'
-      }
+        title: 'Ayo kita mulai🚀🚀🚀 !!!',
+        description: 'Klik Tombol start now untuk memulai.',
+        side: 'left',
+        align: 'start',
+      },
     },
     {
-        element: '#startnow',
-        popover: {
-          title: 'Animated Tour Example',
-          description: 'Here is the code example showing animated tour. Let\'s walk you through it.',
-          side: "left",
-          align: 'start'
-        }
-      },
-    {
+      element: '#Maba',
       popover: {
-        title: 'Happy Coding',
-        description: 'And that is all, go ahead and start adding tours to your applications.'
-      }
-    }
-  ]
+        title: 'Pilih Fase',
+        description: 'Pilih mahasiswa semester berapa sekarang lo.',
+        side: 'left',
+        align: 'start',
+      },
+    },
+    {
+      element: '#tentangkami',
+      popover: {
+        title: 'Tentang Kami',
+        description: 'Hmmm.. mungkin ada yang kepo tentang kami.',
+        side: 'left',
+        align: 'start',
+      },
+    },
+    {
+      element: '#letsgo',
+      popover: {
+        title: 'Lets goooo 🚀🚀🚀 !!!',
+        description: '',
+        side: 'left',
+        align: 'start',
+      },
+    },
+    // {
+    //   popover: {
+    //     title: 'Selesai',
+    //     description:
+    //       'enjoyyy',
+    //   },
+    // },
+  ],
 });
 
 export const ModalGreet = ({ isOpen, setIsOpen }: prop) => {
@@ -55,9 +74,9 @@ export const ModalGreet = ({ isOpen, setIsOpen }: prop) => {
           className="bg-slate-900/20 backdrop-blur p-8 fixed inset-0 z-50 grid place-items-center overflow-y-scroll cursor-pointer"
         >
           <motion.div
-            initial={{ scale: 0, rotate: "12.5deg" }}
-            animate={{ scale: 1, rotate: "0deg" }}
-            exit={{ scale: 0, rotate: "0deg" }}
+            initial={{ scale: 0, rotate: '12.5deg' }}
+            animate={{ scale: 1, rotate: '0deg' }}
+            exit={{ scale: 0, rotate: '0deg' }}
             onClick={(e) => e.stopPropagation()}
             className="bg-gradient-to-br from-violet-600 to-indigo-600 text-white p-6 rounded-lg w-full max-w-lg shadow-xl cursor-default relative overflow-hidden"
           >
@@ -66,25 +85,40 @@ export const ModalGreet = ({ isOpen, setIsOpen }: prop) => {
               <div className="bg-white w-16 h-16 mb-2 rounded-full text-3xl text-indigo-600 grid place-items-center mx-auto">
                 <FiAlertCircle />
               </div>
-              <h3 className="text-3xl font-bold text-center mb-2">
-                One more thing!
+              <h3 className="text-2xl font-bold text-center mb-2">
+                Haloo, Selamat datang 👋👋👋
               </h3>
-              <p className="text-center mb-6">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Id
-                aperiam vitae, sapiente ducimus eveniet in velit.
+              <p className=" mb-6">
+                Halo sobat posey, kalian tau mahespology gak nih?
+                <br></br>
+                <br></br>
+                <span className="font-bold">Mahespology</span>
+                <br></br>
+                adalah sebuah website yang membahas seputar kehidupan
+                perkuliahan mahasiswa. Mulai dari fase menjadi mahasiswa hingga
+                tips gaya hidup sehat, semuanya ada di sini.
+                <br></br>
+                <br></br>
+                Jangan lupa kepoin website kita yaa, sobat posey! Dijamin,
+                banyak informasi bermanfaat dan inspiratif buat kalian.
+                <br></br>
+                <br></br>
+                <span className="font-bold">
+                  apakah anda perlu tour website kami ?{' '}
+                </span>
               </p>
               <div className="flex gap-2">
                 <button
                   onClick={handleCLick}
-                  className="bg-transparent hover:bg-white/10 transition-colors text-white font-semibold w-full py-2 rounded"
+                  className="bg-white hover:opacity-90 transition-opacity text-indigo-600 font-semibold w-full py-2 rounded"
                 >
                   Tentu Saja!
                 </button>
                 <button
                   onClick={() => setIsOpen(false)}
-                  className="bg-white hover:opacity-90 transition-opacity text-indigo-600 font-semibold w-full py-2 rounded"
+                  className="bg-transparent hover:bg-white/10 transition-colors text-white font-semibold w-full py-2 rounded"
                 >
-                  Nah, go back
+                  Tidak usah, deh
                 </button>
               </div>
             </div>

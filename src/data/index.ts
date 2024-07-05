@@ -1,4 +1,4 @@
-export { default as MINI1 } from '../asset/MINI1.svg';
+export { default as MINI1 } from '../assets/Group.png';
 export { default as MINI3 } from '../asset/MINI3.svg';
 export { default as MINI2 } from '../asset/MINI2.svg';
 export { default as orangPilek } from '../asset/orang-pilek.jpeg';

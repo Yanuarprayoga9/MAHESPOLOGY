@@ -87,6 +87,34 @@ export const kehidupanAnakKuliah: MateriType[] = [
   }
 ];
 
-  
-  console.log(kehidupanAnakKuliah);
-  
+
+export interface gayaHidupMateriType {
+  title: string;
+  desc: string;
+}
+export const gayaHidupMateri:gayaHidupMateriType[] = [
+  {
+      title: "Pola Makan Mahasiswa",
+      desc: "Saat kuliah, menjaga pola makan yang sehat bisa menjadi tantangan tersendiri. Dengan jadwal yang padat, seringkali lebih memilih makanan cepat saji atau cemilan yang kurang sehat. Pastikan mengonsumsi makanan yang kaya akan serat, protein, vitamin, dan mineral. Jangan lupa untuk minum cukup air agar tubuh tetap terhidrasi. Usahakan untuk tidak melewatkan sarapan karena ini adalah sumber energi utama di pagi hari."
+  },
+  {
+      title: "Jam Tidur",
+      desc: "Tidur yang cukup adalah kunci untuk menjaga kesehatan dan performa akademik. Mahasiswa idealnya butuh sekitar 7-9 jam tidur setiap malam. Kurang tidur bisa berdampak buruk pada konsentrasi, mood, dan kesehatan secara keseluruhan. Cobalah untuk membuat jadwal tidur yang teratur dan hindari penggunaan gadget sebelum tidur agar kualitas tidur lebih baik. Tidur siang singkat bisa menjadi solusi sementara untuk mengembalikan energi di siang hari."
+  },
+  {
+      title: "Olahraga Teratur",
+      desc: "Di tengah kesibukan kuliah, jangan lupakan pentingnya berolahraga. Olahraga membantu menjaga kebugaran tubuh dan mengurangi stres. Luangkan waktu 30 menit setiap hari untuk berjalan kaki, bersepeda, atau yoga. Bergabung dengan komunitas olahraga di kampus bisa menjadi cara yang menyenangkan untuk tetap aktif dan menambah teman baru."
+  },
+  {
+      title: "Pertemanan dan Organisasi",
+      desc: "Pertemanan dan keaktifan dalam organisasi mahasiswa adalah bagian penting dari kehidupan kampus. Teman yang mendukung membuat perjalanan kuliah lebih menyenangkan. Bergabung dengan organisasi membantu mengembangkan soft skills seperti kepemimpinan, komunikasi, dan kerja tim. Organisasi juga merupakan tempat membangun jaringan profesional yang berguna di masa depan."
+  },
+  {
+      title: "Pentingnya Olahraga bagi Mahasiswa",
+      desc: "Olahraga tidak hanya berpengaruh pada kesehatan fisik, tetapi juga memengaruhi kesehatan mental dan kemampuan akademis. Melalui olahraga, tubuh tetap bugar, meningkatkan kekuatan otot dan tulang, serta daya tahan tubuh. Olahraga juga meningkatkan konsentrasi dan memperbaiki aliran darah ke otak untuk kemampuan ingatan dan pembelajaran. Selain itu, olahraga mengurangi stres dan menjaga kesiapan mental."
+  },
+  {
+      title: "Yuk Tetap Aktif dan Produktif!",
+      desc: "Untuk menjaga kesehatan dan produktivitas melalui olahraga, ada berbagai cara yang bisa dicoba. Mulai dari berjalan santai sampai yoga, tersedia banyak opsi untuk meningkatkan energi dan fokus. Dengan memasukkan kegiatan olahraga ke dalam rutinitas sehari-hari, tidak hanya kesehatan fisik yang meningkat, tetapi juga kemampuan akademis akan teroptimalkan. Pastikan memberikan waktu istirahat yang cukup agar tubuh pulih sepenuhnya dan siap menghadapi berbagai tantangan."
+  }
+];

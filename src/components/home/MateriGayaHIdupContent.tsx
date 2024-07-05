@@ -1,4 +1,6 @@
 import { motion } from 'framer-motion';
+import { GayaHidupDisclosure } from './GayaHidupDisclosure';
+import { gayaHidupMateri } from '../../data/materi';
 
 const GayaHidup = () => {
   return (
@@ -10,7 +12,6 @@ const GayaHidup = () => {
         TIPS & TRIK Buat Sobat Posey
       </h1>
       <motion.div
-         style={{}}
          initial={{ opacity: 0, scale: 0 }}
          whileInView={{ opacity: 1, scale: 1 }}
          transition={{ duration: 0.5 }}
@@ -23,6 +24,7 @@ const GayaHidup = () => {
           pertemanan yang positif, dan aktif di berbagai organisasi kampus.
         </p>
       </motion.div>
+      <GayaHidupDisclosure materis={gayaHidupMateri} />
     </div>
   );
 };

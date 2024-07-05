@@ -1,4 +1,4 @@
-import { features, semesterFilterdesc } from '../../data/dummy';
+import { features, semesterFilterdesc } from '../../data/materi';
 import { motion } from 'framer-motion';
 import { useNavigate } from 'react-router-dom';
 

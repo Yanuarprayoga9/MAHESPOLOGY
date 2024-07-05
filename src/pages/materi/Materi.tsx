@@ -3,7 +3,7 @@ import { MateriSemesterHeader } from '../../components/materi/MateriSemesterHead
 import Error from '../../components/_Shared/Error';
 import { MateriList } from '../../components/materi/MateriList';
 import { sortedMateri } from '../../utils/sortedMateri';
-import { features } from '../../data/dummy';
+import { features } from '../../data/materi';
 
 const Materi = () => {
   const [descs, setDescs] = useState('');

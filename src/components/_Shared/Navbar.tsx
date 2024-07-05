@@ -1,7 +1,5 @@
 import { useEffect, useState } from "react";
 import { navLink } from "../../data/dummy";
-// import { FiMenu } from "react-icons/fi";
-// import { AiOutlineClose } from "react-icons/ai";
 import  logo from "../../assets/logo_full_white.png"
 
 

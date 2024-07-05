@@ -1,4 +1,4 @@
-import { MINI1 } from ".";
+import { MINI1,MINI2,MINI3 } from ".";
 
 
 export interface MateriType {
@@ -7,32 +7,86 @@ export interface MateriType {
   image:string,
   category:string,
 }
-export const kehidupanAnakKuliah:MateriType[] = [
-    {
-      title: "Kehidupan Mahasiswa Baru",
-      desc: "Masa transisi dari SMA ke kehidupan perkuliahan penuh tantangan dan penyesuaian. Mahasiswa baru biasanya masih dalam tahap beradaptasi dengan lingkungan, sistem pembelajaran, dan cara hidup yang lebih mandiri.",
-      image: MINI1,  // Ganti dengan URL atau path gambar yang relevan
-      category: "Maba"
-    },
-    {
-      title: "Kehidupan Mahasiswa Semester Pertengahan",
-      desc: "Mahasiswa semester pertengahan sudah lebih mengenal dunia perkuliahan. Mereka mulai fokus pada jurusan yang dipilih, terlibat dalam organisasi, dan mulai merencanakan karier masa depan.",
-      image: MINI1,  // Ganti dengan URL atau path gambar yang relevan
-      category: "Pertengahan"
-    },
-    {
-      title: "Kehidupan Mahasiswa Semester Akhir",
-      desc: "Mahasiswa semester akhir berada dalam tahap penyelesaian studi. Fokus utama mereka adalah menyelesaikan tugas akhir, magang, dan mempersiapkan diri untuk masuk ke dunia kerja.",
-      image:MINI1,  // Ganti dengan URL atau path gambar yang relevan
-      category: "Akhir"
-    },
-    {
-      title: "Cara Mengatur Waktu untuk Mahasiswa Baru",
-      desc: "Mengatur waktu dengan baik adalah kunci sukses bagi mahasiswa baru dalam menjalani perkuliahan. Berikut adalah beberapa tips yang dapat membantu mahasiswa baru untuk mengelola waktu mereka dengan efektif: Buat jadwal harian, prioritaskan tugas, gunakan kalender akademik, hindari prokrastinasi, sisihkan waktu untuk istirahat, dan manfaatkan teknologi.",
-      image: MINI1,  // Ganti dengan URL atau path gambar yang relevan
-      category: "Maba"
-    }
-  ];
+export const kehidupanAnakKuliah: MateriType[] = [
+  // Kategori: Maba
+  {
+    title: "Kehidupan Mahasiswa Baru",
+    desc: "Baru masuk kuliah? Tenang aja, semua orang pasti ngerasain masa-masa adaptasi. Mulai dari nyari kelas, kenalan sama dosen, sampe belajar hidup mandiri. Kuliah beda banget sama sekolah, jadi siap-siap aja buat banyak perubahan. Jangan lupa buat aktif ikut kegiatan kampus, biar bisa dapet banyak temen baru dan pengalaman seru. Nikmatin aja prosesnya, karena masa-masa ini bakal jadi kenangan yang nggak terlupakan.",
+    image: MINI1,
+    category: "Maba"
+  },
+  {
+    title: "Tips Mengatur Waktu bagi Mahasiswa Baru",
+    desc: "Mengatur waktu dengan baik adalah kunci sukses bagi mahasiswa baru. Buat jadwal harian yang jelas, prioritaskan tugas-tugas penting, dan jangan lupa buat waktu istirahat. Gunakan kalender akademik untuk melacak deadline tugas dan ujian. Hindari prokrastinasi dengan cara membagi tugas besar menjadi bagian-bagian kecil yang lebih mudah dikerjakan. Manfaatkan teknologi seperti aplikasi to-do list atau kalender digital untuk membantu mengorganisir waktu. Dengan manajemen waktu yang baik, kamu bisa tetap produktif tanpa merasa kewalahan.",
+    image: MINI1,
+    category: "Maba"
+  },
+  {
+    title: "Cara Membangun Jaringan Pertemanan",
+    desc: "Di awal kuliah, penting banget buat bangun jaringan pertemanan yang luas. Kenalan sama temen-temen di kelas, ikut organisasi, atau sekedar nongkrong di kantin bisa jadi cara efektif buat dapet temen baru. Jangan ragu buat gabung di acara-acara kampus, karena disitu kamu bisa ketemu banyak orang dengan minat yang sama. Jaringan pertemanan yang luas bisa bantu kamu lebih mudah adaptasi dan dapet banyak informasi penting tentang perkuliahan.",
+    image: MINI1,
+    category: "Maba"
+  },
+  {
+    title: "Mengenal Sistem Pembelajaran di Kampus",
+    desc: "Sistem pembelajaran di kampus beda banget sama di sekolah. Kamu harus lebih mandiri dalam mencari materi, karena dosen biasanya nggak akan mengulang-ulang penjelasan. Manfaatkan perpustakaan dan sumber-sumber belajar online untuk menambah pengetahuan. Jangan ragu buat tanya ke dosen atau asisten dosen kalau ada yang nggak paham. Aktiflah di kelas dan jangan malu untuk berpartisipasi dalam diskusi.",
+    image: MINI1,
+    category: "Maba"
+  },
+
+  // Kategori: Pertengahan
+  {
+    title: "Kehidupan Mahasiswa Semester Pertengahan",
+    desc: "Semester pertengahan adalah saatnya untuk lebih fokus pada jurusan yang dipilih dan mulai terlibat lebih dalam di organisasi kampus. Kamu sudah lebih mengenal dunia perkuliahan dan bisa mulai merencanakan langkah-langkah ke depan. Ini adalah waktu yang tepat untuk mencari magang atau proyek yang sesuai dengan minat dan jurusanmu. Jangan lupa untuk menjaga keseimbangan antara akademis dan kegiatan non-akademis. Aktif dalam organisasi bisa nambah pengalaman dan skill yang berguna buat karier masa depan.",
+    image: MINI2,
+    category: "Pertengahan"
+  },
+  {
+    title: "Strategi Belajar di Semester Pertengahan",
+    desc: "Udah paham cara kuliah? Coba deh pake strategi belajar yang lebih efektif. Bikin tempat belajar yang nyaman dan bebas gangguan, gunakan teknik belajar yang sesuai dengan gaya belajarmu, seperti membaca cepat, membuat mind map, atau diskusi kelompok. Aktiflah di kelas dengan bertanya dan berpartisipasi dalam diskusi. Jangan ragu buat minta bantuan dosen atau teman kalau ada materi yang nggak paham. Review materi secara rutin, jangan nunggu sampe mau ujian aja. Dengan strategi belajar yang tepat, kamu bisa lebih paham dan nggak gampang lupa materi kuliah.",
+    image: MINI2,
+    category: "Pertengahan"
+  },
+  {
+    title: "Manfaat Ikut Organisasi Kampus",
+    desc: "Ikut organisasi kampus punya banyak manfaat, lho! Kamu bisa dapet pengalaman kepemimpinan, memperluas jaringan pertemanan, dan menambah soft skills yang berguna buat dunia kerja nanti. Selain itu, kamu juga bisa belajar bekerja dalam tim, mengatur waktu, dan mengasah kemampuan komunikasi. Jangan ragu buat gabung di organisasi yang sesuai dengan minatmu. Pengalaman ini nggak cuma bikin masa kuliahmu lebih berwarna, tapi juga nambah poin plus di CV kamu.",
+    image: MINI2,
+    category: "Pertengahan"
+  },
+  {
+    title: "Mengelola Keuangan Selama Kuliah",
+    desc: "Mengelola keuangan dengan bijak itu penting banget selama kuliah. Buatlah anggaran bulanan untuk mengatur pengeluaran dan pemasukan. Usahakan untuk menabung meski sedikit, karena bisa jadi dana darurat. Jangan tergoda buat sering-sering nongkrong atau belanja yang nggak perlu. Manfaatkan diskon mahasiswa dan cari tahu tentang beasiswa yang bisa kamu dapatkan. Dengan pengelolaan keuangan yang baik, kamu bisa hidup lebih tenang dan fokus pada perkuliahan.",
+    image: MINI2,
+    category: "Pertengahan"
+  },
+
+  // Kategori: Akhir
+  {
+    title: "Kehidupan Mahasiswa Semester Akhir",
+    desc: "Semester akhir adalah masa-masa yang menantang dan penuh dengan berbagai persiapan. Fokus utama kamu adalah menyelesaikan tugas akhir, mencari magang atau pekerjaan, dan mempersiapkan diri untuk masuk ke dunia kerja. Jangan lupa untuk tetap menjaga kesehatan fisik dan mental, karena tekanan di semester akhir bisa sangat tinggi. Manfaatkan waktu sebaik mungkin untuk menyelesaikan tugas-tugas yang ada, tapi jangan lupa untuk tetap bersosialisasi dan menikmati waktu bersama teman-teman. Masa-masa ini akan jadi kenangan yang sangat berharga.",
+    image: MINI3,
+    category: "Akhir"
+  },
+  {
+    title: "Persiapan Karier di Semester Akhir",
+    desc: "Di semester akhir, persiapan karier menjadi fokus utama. Perbarui CV dan portofolio dengan semua pengalaman dan skill yang kamu punya. Cari peluang magang atau kerja yang sesuai dengan jurusan dan minatmu. Jangan lupa untuk aktif menghadiri job fair dan seminar karier untuk menambah wawasan dan jaringan. Persiapkan diri untuk interview kerja dengan latihan soal-soal interview dan simulasi. Manfaatkan jasa bimbingan karier yang biasanya disediakan oleh kampus. Persiapan yang matang akan membantumu lebih percaya diri saat memasuki dunia kerja.",
+    image: MINI3,
+    category: "Akhir"
+  },
+  {
+    title: "Menyelesaikan Tugas Akhir dengan Sukses",
+    desc: "Tugas akhir adalah salah satu tantangan terbesar di semester akhir. Mulailah dengan memilih topik yang kamu minati dan buat rencana kerja yang jelas. Jangan tunda-tunda pengerjaannya, karena tugas akhir butuh waktu dan penelitian yang mendalam. Jangan ragu untuk berkonsultasi dengan dosen pembimbing dan meminta masukan dari teman atau senior. Jaga kesehatan dan istirahat yang cukup, karena menyelesaikan tugas akhir memerlukan stamina yang baik. Dengan persiapan yang matang dan kerja keras, kamu bisa menyelesaikan tugas akhir dengan sukses.",
+    image: MINI3,
+    category: "Akhir"
+  },
+  {
+    title: "Menghadapi Dunia Kerja Setelah Lulus",
+    desc: "Setelah lulus, kamu akan memasuki dunia kerja yang penuh dengan tantangan baru. Persiapkan diri dengan terus belajar dan meningkatkan keterampilan. Jangan takut untuk memulai dari bawah dan terus mencari pengalaman. Manfaatkan jaringan yang sudah kamu bangun selama kuliah untuk mencari peluang kerja. Tetap semangat dan jangan mudah menyerah. Ingat, kesuksesan tidak datang dengan instan, tapi dengan kerja keras dan dedikasi.",
+    image: MINI3,
+    category: "Akhir"
+  }
+];
+
   
   console.log(kehidupanAnakKuliah);
   

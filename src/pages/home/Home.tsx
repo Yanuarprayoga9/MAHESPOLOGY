@@ -47,31 +47,11 @@ const Home = () => {
           src={manyplanet}
         />
       </motion.div>
-
-      {/* <motion.div
-        style={{ transformOrigin: 'top' }}
-        animate={{
-          rotate: [5, -5, 5],
-          transition: {
-            duration: 7,
-            repeat: Infinity,
-          },
-        }}
-        className="absolute  right-20 h-full  w-[500px] sm:w-[700px]"
-      >
-        <div className="absolute  right-30 w-[400px] sm:w-[700px]  top-20  h-[200px]  bg-yellow-400  opacity-30 rounded-full md:blur-3xl blur-2xl "></div>
-        <img
-          className="absolute right-0  -top-8   w-[1000px] sm:[700px]   object-cover object-bottom"
-          src={bg}
-        />
-      </motion.div> */}
-
       <HomeComponent />
       <Naration />
       <Feature />
       <Penyakit />
-      {/* <Penyakit />
-      <Footer /> */}
+    
     </div>
   );
 };

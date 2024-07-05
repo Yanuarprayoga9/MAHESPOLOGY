@@ -1,5 +1,6 @@
-# React + TypeScript + Vite + axios + react router dom
-
+# Mahespology
+Mahespology
+adalah sebuah website yang membahas seputar kehidupan perkuliahan mahasiswa. Mulai dari fase menjadi mahasiswa hingga tips gaya hidup sehat, semuanya ada di sini.
 
 ```js
 "dev": "vite",

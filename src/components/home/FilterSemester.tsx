@@ -1,4 +1,4 @@
-import { features } from '../../data/dummy';
+import { features, semesterFilterdesc } from '../../data/dummy';
 import { motion } from 'framer-motion';
 import { useNavigate } from 'react-router-dom';
 
@@ -55,7 +55,7 @@ const FilterSemester = () => {
                   {item.title}
                 </h1>
                 <p className="text-center  text-text text-sm  max-w-[400px]">
-                  {item.desc}
+                  {semesterFilterdesc[i]}
                 </p>
               </div>
             </motion.div>

@@ -26,8 +26,8 @@ const Navbar = () => {
   return (
     <div
       className={`${
-        isScroll ? "bg-purple-950 h-[60px] lg:-top-[60px]" : " h-[80px]"
-      } lg:px-[72px] px-5   w-full  z-[10] fixed   transition-all duration-300 ease-in-out  flex justify-between items-center`}
+        isScroll ? "bg-purple-950  h-[60px] lg:-top-[60px]" : " h-[80px]"
+      } lg:px-[72px] px-5   w-full  z-50 fixed   transition-all duration-300 ease-in-out  flex justify-between items-center`}
     >
       <div className="w-[103px] h-[25px] cursor-pointer" onClick={()=>window.location.href='/'} >
         <img src={logo} alt="" className="w-full h-full object-contain" />

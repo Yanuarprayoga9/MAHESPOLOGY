@@ -2,7 +2,7 @@ import { motion } from 'framer-motion';
 
 const GayaHidup = () => {
   return (
-    <div className="h-auto min-h-screen w-full px-5 lg:px-[72px] my-8 flex flex-col gap-5">
+    <div className="h-auto py-24 min-h-screen w-full px-5 lg:px-[72px] my-8 flex flex-col gap-5">
       <h1 className="font-bold text-[16px] lg:text-[20px] text-orange">
         Haloo, sobat posey
       </h1>

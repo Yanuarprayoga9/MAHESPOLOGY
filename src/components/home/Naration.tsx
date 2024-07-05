@@ -4,7 +4,7 @@ import planet from '../../assets/Purple Planet-3.png';
 import mod from '../../assets/Modular-Coding-Of-Application--Streamline-Manila.png';
 export const Naration = () => {
   return (
-    <div className="text-center z-20 min-h-screen relative text-white py-24">
+    <div className="text-center z-10 min-h-screen relative text-white py-24">
       <div className="absolute -top-32 right-4">
         <motion.div
           style={{}}
@@ -37,22 +37,29 @@ export const Naration = () => {
           bikin lo tetep waras, tapi juga seru!
         </p>
       </motion.div>
-      <motion.div
-        style={{ transformOrigin: 'bottom' }}
-        animate={{
-          rotate: [0, 20, 0],
-          transition: {
-            duration: 30,
-            repeat: Infinity,
-          },
-        }}
-      >
-        <img src={planet} className="w-[250px]  sm:w-[300px] " />
-      </motion.div>
+      <div className="relative overflow-hidden w-full  flex justify-center items-center">
+        <motion.div
+          style={{ transformOrigin: 'bottom' }}
+          animate={{
+            rotate: [0, 20, 0],
+            transition: {
+              duration: 30,
+              repeat: Infinity,
+            },
+          }}
+          className="relative overflow-hidden"
+        >
+          <img
+            src={planet}
+            className="w-[250px] overflow-hidden  sm:w-[300px] "
+          />
+        </motion.div>
+      </div>
 
       <img
         src={mod}
-        className="w-[250px] sm:w-[350px] absolute bottom-24 left-2/3  "
+        className="w-[250px] sm:w-[350px] overflow-hidden absolute bottom-24"
+        style={{ left: '50%', transform: 'translateX(-50%)' }}
       />
     </div>
   );

@@ -1,6 +1,6 @@
 import Feature from '../../components/home/FilterSemester';
 import HomeComponent from '../../components/home/Home';
-import Penyakit from '../../components/home/Consumer';
+import Penyakit from '../../components/home/MateriGayaHIdupContent';
 import { motion } from 'framer-motion';
 // import bg from '../../asset/Lovepik_com-400980747-star-decoration.png';
 import g from '../../asset/Lovepik_com-611114205-Cosmic Milky Way black hole planet decoration illustration.png';

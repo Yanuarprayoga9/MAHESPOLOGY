@@ -22,7 +22,7 @@ export const Naration = () => {
         whileInView={{ opacity: 1, scale: 1 }}
         transition={{ duration: 0.1 }}
       >
-        <h1 className="text-3xl font-bold p-4">Hmm, Coba Pikirin deh...</h1>
+        <h1 className="text-3xl font-bold p-4 z-10">Hmm, Coba Pikirin deh...</h1>
       </motion.div>
       <motion.div
         style={{}}
@@ -30,7 +30,7 @@ export const Naration = () => {
         whileInView={{ opacity: 1, scale: 1 }}
         transition={{ duration: 0.5 }}
       >
-        <p className="text-base p-8 ">
+        <p className="text-base p-8 z-10">
           Jadi mahasiswa emang bisa jadi tantangan tersendiri, tapi jangan
           khawatir, itu semua bagian dari perjalanan belajar dan berkembang.
           Berikut beberapa hal yang bikin kehidupan mahasiswa nggak mudah dan

@@ -13,7 +13,7 @@ const HomeComponent = () => {
         <h1 className="text-[30px] md:text-[40px] lg:text-[50px] font-bold">
           Jadi lo mahasiswa ?
         </h1>
-        <p className="text-text text-[14px] lg:text-[18px]">
+        <p className="text-text text-[14px] lg:text-[18px] z-30">
           Temukan artikel menarik yang khusus dibuat untukmu. Di sini, kamu bisa
           mendapatkan berbagai informasi penting dan tips-tips bermanfaat yang
           akan membantumu dalam perjalanan kuliah lo. Bersiaplah

@@ -14,7 +14,7 @@ export const PersonCard = (props: MahasiswaType) => {
                 transition={{ duration: 0.1 }}
                 whileHover={{
                     scale: 1.1,
-                    boxShadow: '3px 3px 10px 3px rgba(255,255,255,1)',
+                    boxShadow: '0px 0px 10px 0px rgba(255,255,255,1)',
                 }}
                 // viewport={{ once: true }}
                 className=" py-8 "

@@ -17,9 +17,9 @@ export const PersonCard = (props: MahasiswaType) => {
                     boxShadow: '0px 0px 10px 0px rgba(255,255,255,1)',
                 }}
                 // viewport={{ once: true }}
-                className=" py-8 "
+                className=" m-2 rounded-2xl"
             >
-                <div className="flex relative flex-col w-[300px] sm:w-[400px] h-[15rem]  justify-center items-center shadow-xl  shadow-purple-950">
+                <div className="flex relative flex-col w-[300px] sm:w-[400px]   justify-center items-center shadow-xl  shadow-purple-950">
                     <div className="w-full h-6/6 flex ">
                         <img
                             src={image}

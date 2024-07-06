@@ -1,5 +1,12 @@
 import { MINI1,MINI2,MINI3 } from ".";
-
+import irulimg from "../assets/profile/irul.jpg"
+import safira from "../assets/profile/safira maia.jpg"
+import faradis from "../assets/profile/faradis.jpg"
+import fiqhi from "../assets/profile/fiqhi.png"
+import yanu from "../assets/profile/yanu.jpg"
+import upi from "../assets/profile/upi.jpg"
+import nesya from "../assets/profile/nesya syafa.jpg"
+import amal from "../assets/profile/amalia dyah.jpg"
 
 export interface MateriType {
   title:string,
@@ -141,4 +148,53 @@ export const semesterFilterdesc = [
   'Lo awal semester baru masuk kuliah ',
   'Lo pertengahan semester udah mulai banyak nih tugasnya   ',
   'Lo pertengahan semester akhir yang lagi pusing ngerjain skripsi ',
+];
+
+
+export  type MahasiswaType = {
+  nama:string;
+  as:string;
+  image:string;
+}
+export const mahasiswaTeknikInformatika2022:MahasiswaType[] = [
+  {
+    nama: "Achmad Choerul Ramdhani",
+    as: "Mahasiswa Teknik Informatika 2022",
+    image: irulimg
+  },
+  {
+    nama: "Amalia Dyah Puspita",
+    as: "Mahasiswa Teknik Informatika 2022",
+    image: amal
+  },
+  {
+    nama: "Fiqhi Naura",
+    as: "Mahasiswa Teknik Informatika 2022",
+    image: fiqhi
+  },
+  {
+    nama: "Lutfiya Ainurrahman Prasetyo",
+    as: "Mahasiswa Teknik Informatika 2022",
+    image: upi
+  },
+  {
+    nama: "Muhammad Faradis",
+    as: "Mahasiswa Teknik Informatika 2022",
+    image: faradis
+  },
+  {
+    nama: "Nesya Syafa Nabila",
+    as: "Mahasiswa Teknik Informatika 2022",
+    image: nesya
+  },
+  {
+    nama: "Safira Maia Prasasti",
+    as: "Mahasiswa Teknik Informatika 2022",
+    image: safira
+  },
+  {
+    nama: "Yanuar Prayoga",
+    as: "Mahasiswa Teknik Informatika 2022",
+    image: yanu
+  }
 ];

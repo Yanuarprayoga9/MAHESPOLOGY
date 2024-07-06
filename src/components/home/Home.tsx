@@ -2,10 +2,10 @@ import StartButton from './StartButton';
 
 const HomeComponent = () => {
   return (
-    <div className=" w-full h-screen home bg-no-repeat bg-cover bg-left md:bg-center flex  items-center px-5 lg:px-[72px] ">
+    <div className="customfont w-full h-screen home bg-no-repeat bg-cover bg-left md:bg-center flex  items-center px-5 lg:px-[72px] ">
       <div className="max-w-[450px] md:max-w-[500px] lg:max-w-[600px] flex flex-col gap-7">
         <h1
-          className="font-bold text-[16px] lg:text-[20px] text-orange "
+          className="font font-bold text-[16px] lg:text-[20px] text-orange "
           id="letsgo"
         >
           MAHESPOLOGY

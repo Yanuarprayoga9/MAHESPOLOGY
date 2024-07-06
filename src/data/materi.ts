@@ -5,7 +5,7 @@ import faradis from "../assets/profile/faradis.jpg"
 import fiqhi from "../assets/profile/fiqhi.png"
 import yanu from "../assets/profile/yanu.jpg"
 import upi from "../assets/profile/upi.jpg"
-import nesya from "../assets/profile/nesya syafa.jpg"
+import nesya from "../assets/profile/nes.jpg"
 import amal from "../assets/profile/amalia dyah.jpg"
 
 export interface MateriType {
